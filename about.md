@@ -19,7 +19,7 @@ If you would like to reach out, feel free to contact me via email:
 ## Fatma Yassin 
 Master's Student in Marine Biology >
 <center>University of haifa</center>
-<center>Shifa-Amr</center>
+<center>lived in Shifa-Amr</center>
 
 
 ### EDUCATION
