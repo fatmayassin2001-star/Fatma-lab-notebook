@@ -1,7 +1,11 @@
 ---
 layout: post
-title: Molecular and Chemical Protocol for Tracking Cyanobacterial Taste and Odor Genes
+title: "Protocol: Taste and Odor Compounds in Fresh Water"
 ---
+
+# Protocol: Taste and Odor Compounds in Fresh Water
+
+
 
 # Molecular and Chemical Protocol for Tracking Cyanobacterial Taste and Odor Genes
 
