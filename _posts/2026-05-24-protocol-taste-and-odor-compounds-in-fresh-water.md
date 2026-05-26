@@ -1,10 +1,12 @@
-
+---
 layout: post
 title: "Molecular and Chemical Protocol for Tracking Cyanobacterial Taste and Odor Genes"
+---
 
 # Molecular and Chemical Protocol for Tracking Cyanobacterial Taste and Odor Genes
 
 ## 1. Introduction & Research Framework
+---
 This protocol outlines the molecular and chemical pipeline developed to monitor cyanobacterial populations responsible for seasonal taste and odor events in water sources. The first major appearance of these taste and odor compounds was heavily documented in **October 2024**. Due to concerns that these biological events will recur during identical seasonal transitions, an upcoming field sampling campaign is strategically scheduled for **late September and early October**.
 
 The current phase of laboratory research is executed during fixed weekly sessions (**Sundays and Wednesdays**). Instead of direct environmental sampling or live strain isolation, this framework utilizes archived culture and environmental samples collected during known taste and odor events. The core objective is to establish a high-resolution workflow to verify the genetic potential of these samples via **genomic DNA extraction using dedicated isolation kits**, **custom-designed specific primers**, **endpoint PCR**, **Next-Generation/Sanger Sequencing**, and quantitative PCR (qPCR). This molecular data is directly paired with analytical quantification of volatile organic compounds, specifically **Geosmin** and **2-MIB** (2-Methylisoborneol).
