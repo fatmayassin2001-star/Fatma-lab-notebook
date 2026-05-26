@@ -12,6 +12,8 @@ The current phase of laboratory research is executed during fixed weekly session
 
 **Note:** All molecular biology preparations, primer reconstitutions, and master-mix aliquoting must be performed under a sterile laminar flow hood to maintain sample integrity and prevent cross-contamination.
 
+---
+
 ## 2. Materials and Reagents
 The following laboratory equipment and analytical reagents are required for the molecular tracking and chemical quantification stages:
 
@@ -21,11 +23,15 @@ The following laboratory equipment and analytical reagents are required for the 
 * Sterile microcentrifuge tubes (1.5 mL) and aerosol-barrier pipette tips
 * Headspace Solid-Phase Microextraction (HS-SPME) fibers and standard vials for chemical analysis
 
+---
+
 ## 3. Microscopic Observation and Verification
 Prior to executing enzymatic amplifications, visualize thawed sample aliquots under a light microscope to confirm target cyanobacterial morphology and assess structural preservation.
 
 ![Cyanobacteria colony morphology](https://pierrickharnay.github.io/PierrickHarnay_Notebook/images/colonie_figure_sesesame.png)
 *Figure 1: Microscopic observation of cyanobacterial morphology and cellular distribution from archived event samples.*
+
+---
 
 ## 4. Analytical Workflow: From DNA to Chemical Quantification
 The analytical pipeline is divided into clear molecular and chemical validation steps:
@@ -35,6 +41,8 @@ The analytical pipeline is divided into clear molecular and chemical validation 
 3. **Sequencing Analysis:** Prepare verified PCR products and submit them for sequencing to definitively determine taxonomic identity and map genetic profiles.
 4. **qPCR Quantification:** Perform quantitative PCR (qPCR) assays to verify and trace the absolute abundance and copy numbers of the target genes within the cultures.
 5. **Chemical Quantitation:** Conduct analytical chemistry tracking to measure the exact concentrations (ng/L levels) of Geosmin and 2-MIB produced by the populations using gas chromatography systems.
+
+---
 
 ## 5. Laboratory Log and Target Analytical Matrix
 The following tracking matrix serves as the official laboratory log, recorded during scheduled Sunday and Wednesday workstations. It documents the target molecular markers and chemical concentrations evaluated across the event samples:
@@ -46,6 +54,8 @@ The following tracking matrix serves as the official laboratory log, recorded du
 | 2026-05-10 (Sun) | Event-Culture-03 | 51.0 | Negative (Not Detected) | < 1.0 | < 2.0 |
 | 2026-05-13 (Wed) | Event-Culture-04 | 42.1 | Positive (Target Detected) | 22.5 | 8.7 |
 | 2026-05-17 (Sun) | Event-Culture-05 | 47.6 | Positive (Target Detected) | 18.1 | 4.3 |
+
+---
 
 ## 6. Scientific References and Official Frameworks
 For a deeper technical review of molecular tracking methods, taste and odor synthesis, and standard reagent preparations
