@@ -1,0 +1,59 @@
+# 🧬 Primer Design and Phylogenetic Analysis of *Microcystis aeruginosa* Using the 16S rRNA Gene
+
+---
+
+## 🎯 Project Objective
+This project focuses on designing PCR primers for cyanobacterial species identification and constructing a phylogenetic tree to analyze evolutionary relationships among cyanobacteria using the 16S rRNA gene.
+
+---
+
+## 🧫 Target Organism
+The selected organism is the cyanobacterium **Microcystis aeruginosa**.
+
+The 16S rRNA gene was chosen as a molecular marker due to its high conservation and wide use in bacterial phylogenetics.
+
+---
+
+## 🧬 Gene Marker: 16S rRNA
+### Why 16S rRNA?
+- Highly conserved across bacteria  
+- Contains variable regions for species discrimination  
+- Large database availability (NCBI)  
+- Standard marker for phylogenetic studies  
+
+---
+
+## 📥 Sequence Retrieval (NCBI)
+
+### Reference Sequence
+- Accession Number: **NR_074314.1**
+
+### Additional sequences used:
+- LC557459.1  
+- PP272457.1  
+- OQ874399.1  
+- MT835121.1  
+
+All sequences were downloaded in FASTA format from NCBI GenBank.
+
+---
+
+## 🔬 Multiple Sequence Alignment (MSA)
+
+### Tool used:
+- Clustal Omega / MEGA (ClustalW algorithm)
+
+### Method:
+- DNA sequence alignment of 16S rRNA genes
+- Comparison of conserved and variable regions
+
+### Observations:
+- Strong conserved regions across cyanobacteria  
+- Presence of SNPs in internal regions  
+- Suitable variability for phylogenetic analysis  
+
+---
+
+### 📸 Alignment Output
+```text
+[Insert screenshot of Clustal alignment here]
