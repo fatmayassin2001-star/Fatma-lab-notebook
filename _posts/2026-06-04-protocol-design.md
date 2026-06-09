@@ -29,6 +29,8 @@ A reference sequence of the 16S rRNA gene belonging to *Microcystis* sp. was ret
 
 > **Screenshot 1: NCBI Sequence Page** > (![alt text](image-1.png))
 
+
+
 To identify closely related species, the reference sequence was analyzed using **NCBI BLASTn** (Nucleotide Collection nr/nt, Highly Similar Sequences). Based on the results, additional sequences were selected for phylogenetic comparison:
 
 | Accession Number | Organism |
