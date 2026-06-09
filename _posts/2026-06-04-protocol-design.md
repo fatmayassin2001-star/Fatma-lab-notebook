@@ -51,7 +51,7 @@ The FASTA sequences of the selected organisms were imported into **MEGA** softwa
 **Identification of Conserved and Variable Regions:**
 The multiple sequence alignment output highlighted highly **conserved regions** across all aligned cyanobacterial sequences (indicated by identical nucleotide columns, useful for primer anchoring). It also revealed **variable regions** (including SNPs and indels), which provide the genetic resolution needed to differentiate the species phylogenetically.
 
-> Screenshot 3: Multiple Sequence Alignment Output> ![alt text](../images/image-3.png)![alt text](../images/image-4.png
+> Screenshot 3: Multiple Sequence Alignment Output> ![alt text](../images/image-3.png)![alt text](../images/image-4.png)
 
 ---
 
