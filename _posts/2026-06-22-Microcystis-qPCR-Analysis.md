@@ -34,27 +34,19 @@ Target Genes Selection
 
 ---
 
-##  Part 2: Data Interpretation ($\Delta\Delta$Ct Method)
+## Part 2: Data Interpretation (ΔΔCt Method)
 
-Calculation Workflow (The Livak Method)
+**Calculation Workflow (The Livak Method)**
 To analyze the relative fold change in gene expression between the **Inhibitor Treatment** and **DMSO Control**, we utilize the comparative Ct method.
 
-1. Normalization ($\Delta$Ct): Corrects for differences in input amount and RNA quality.
-   > $\Delta$Ct = Ct (Target) - Ct (Tubulin Reference)
-2. Relative Difference ($\Delta\Delta$Ct): Compares treatment against the control baseline.
-   > $\Delta\Delta$Ct = $\Delta$Ct (Treatment) - $\Delta$Ct (Control)
-3. Fold Change: Determines the final expression ratio.
-   > Fold Change = 2^($-\Delta\Delta$Ct)
+1. **Normalization (ΔCt):** Corrects for differences in input amount and RNA quality.
+   > ΔCt = Ct (Target) - Ct (Reference Gene)
 
-# Experimental Findings
-*(Reference Gene Used: Tubulin, Ct ≈ 23.29)*
+2. **Relative Difference (ΔΔCt):** Compares treatment against the control baseline.
+   > ΔΔCt = ΔCt (Treatment) - ΔCt (Control)
 
-| Regulatory Response | Identified Genes | Calculated Fold Change | Biological Conclusion |
-| :--- | :--- | :--- | :--- |
-| **Severe Downregulation** | `pitx`, `sm50`, `SM30` | 0.24, 0.46, 0.57 | The inhibitor acts as a potent repressor of these specific developmental pathways. |
-| **Notable Upregulation** | `NGN`, `soxC` | 1.99, 1.67 | The treatment triggers an overexpression or stress-compensatory induction in these targets. |
-| **Negligible Change** | `synB`, `pak3` | 1.04, 1.07 | Pathways remain unaffected, demonstrating the high specificity of the inhibitor. |
-
+3. **Fold Change:** Determines the final expression ratio.
+   > Fold Change = 2<sup>-ΔΔCt</sup>
 ---
 
 # 📈 Data Visualization
