@@ -27,7 +27,7 @@ A reference sequence of the 16S rRNA gene belonging to *Microcystis* sp. was ret
 | **Gene** | 16S rRNA |
 | **NCBI Accession Number** | `NR_074314.1` |
 
-> **Screenshot 1: NCBI Sequence Page** > (![alt text](image-1.png))
+> Screenshot 1: NCBI Sequence Page > ![alt text](../images/image-1.png)
 
 
 
