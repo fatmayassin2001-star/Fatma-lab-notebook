@@ -57,8 +57,7 @@ To analyze the relative fold change in gene expression between the **Inhibitor T
 
 *(Below is the visual representation of the calculated Fold Changes comparing the Inhibitor treatment vs. DMSO Control)*
 
-**[Drag and drop your Excel graph image here]**
-
+*[alt text](image-1.png)*
 ---
 
 ## 💡 Final Conclusion
