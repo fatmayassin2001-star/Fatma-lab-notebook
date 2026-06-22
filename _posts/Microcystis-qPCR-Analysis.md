@@ -1,38 +1,62 @@
-qPCR Experimental Design and Relative Quantification Analysis
+qPCR Experimental Design & Relative Quantification Analysis
 
-Part 1: Experimental Design for qPCR Investigation
+Part 1: Experimental Design
+Objective: To establish a molecular tracking protocol detecting the genetic potential of taste and odor (T&O) compound production under environmental stress.
 
-Experimental Overview
-* Chosen Organism: *Microcystis* (e.g., *Microcystis aeruginosa*)
-* Experimental Condition/Stress: Elevated water temperature combined with nutrient stress (e.g., altered Nitrogen/Phosphorus ratio). This specific manipulation simulates the environmental shifts during seasonal transitions (such as summer to autumn) that frequently trigger algal blooms and water quality degradation.
+Chosen Organism: Microcystis (e.g., Microcystis aeruginosa)
+Experimental Stressor: Elevated water temperature combined with nutrient stress (e.g., altered N:P ratio) to simulate seasonal transitions and algal bloom triggers.
 
-Target Genes
+Target Genes Selection:
 
-1.geoA (Geosmin Synthase)
-* Biological Function: This gene encodes geosmin synthase, the bi-functional enzyme responsible for converting farnesyl diphosphate (FPP) into geosmin. Geosmin is a major secondary metabolite responsible for earthy and musty taste and odor (T&O) issues in drinking water reservoirs.
-* Expected Observation: I expect to observe a significant upregulation of *geoA* expression.
-* Relevance to the Condition: When the cyanobacterial community experiences stress due to rising temperatures and shifting nutrient availability, metabolic pathways undergo major alterations. The overexpression of the geosmin biosynthesis pathway often precedes a detectable chemical outbreak in the water, making *geoA* an excellent early-warning molecular marker.
+geoA
+• Biological Function: Encodes geosmin synthase (converts FPP into geosmin, causing earthy/musty odors).
+• Expected Observation: Upregulation.
+• Relevance to Stress: Stress responses trigger metabolic shifts. Overexpression precedes detectable chemical outbreaks, serving as an early-warning marker.
 
-2.mic (2-Methylisoborneol Synthase)
-* Biological Function: The *mic* gene (part of the *mic* gene cluster) encodes 2-methylisoborneol synthase, the enzyme responsible for synthesizing 2-MIB, which is the other primary compound causing severe musty odors in aquatic systems.
-* Expected Observation: Similar to *geoA*, I hypothesize an increase in *mic* transcript levels.
-* Relevance to the Condition: The expression of *mic* is highly correlated with specific active growth phases and environmental stressors. Monitoring its expression under heat and nutrient stress allows us to accurately quantify the genetic potential of *Microcystis* to produce these nuisance compounds during a bloom event.
+mic
+• Biological Function: Encodes 2-methylisoborneol synthase (synthesizes 2-MIB, causing severe musty odors).
+• Expected Observation: Upregulation.
+• Relevance to Stress: Expression correlates tightly with active growth phases and heat/nutrient stress, quantifying the genetic potential for nuisance compounds.
 
-Reference (Housekeeping) Gene
+Reference (Housekeeping) Gene:
 
-*rpoC1* (RNA Polymerase Gamma Subunit)
-* Justification: This gene encodes the gamma subunit of RNA polymerase. It is a single-copy, highly conserved gene that is widely recommended for molecular tracking in cyanobacteria.
-* Expected Stability: Because RNA polymerase is essential for basal transcription and overall cell viability, *rpoC1* exhibits constitutive expression. Its expression levels are expected to remain stable and constant regardless of the environmental stressors applied, ensuring highly accurate and reliable normalization for our target genes.
+rpoC1
+• Biological Function: Encodes the RNA polymerase gamma subunit.
+• Justification for Stability: Essential for basal transcription and cell viability. It exhibits constitutive expression, remaining highly stable across environmental fluctuations for accurate normalization.
 
----
+Part 2: Data Interpretation (Delta-Delta Ct Method)
+Calculation Workflow (The Livak Method):
+To analyze the relative fold change in gene expression between the Inhibitor Treatment and DMSO Control, we utilize the comparative Ct method.
 
-Part 2: Relative Quantification and Data Interpretation
+Step 1. Normalization (Delta Ct):
+Corrects for differences in input amount and RNA quality.
+Formula: Delta Ct = Ct Target - Ct Tubulin (Reference)
 
- The $\Delta\Delta$Ct Method
-To analyze the experimental qPCR data (DMSO Control vs. Inhibitor Treatment) from the class exercise (`Class_2026_Excercise_qPCR.xlsx`), we use the $\Delta\Delta$Ct method, also known as the Livak method. This comparative method calculates the relative fold change in gene expression between experimental and control samples.
+Step 2. Relative Difference (Delta-Delta Ct):
+Compares treatment against the control baseline.
+Formula: Delta-Delta Ct = Delta Ct Treatment - Delta Ct Control
 
-**Calculation Workflow:**
+Step 3. Fold Change:
+Determines the final expression ratio.
+Formula: Fold Change = 2 ^ -(Delta-Delta Ct)
 
-1. Normalization ($\Delta$Ct): First, we normalize the target gene's cycle threshold (Ct) to the Ct value of the reference gene (*Tubulin*). This corrects for differences in input amount, RNA quality, and reverse transcription yield.
-```math
-   \Delta\text{Ct} = \text{Ct}_{\text{Target}} - \text{Ct}_{\text{Reference}}
+Experimental Findings:
+(Reference Gene Used: Tubulin, Ct approx. 23.29)
+
+• Severe Downregulation
+Identified Genes: pitx, sm50, SM30
+Calculated Fold Change: 0.24, 0.46, 0.57
+Biological Conclusion: The inhibitor acts as a potent repressor of these specific developmental pathways.
+
+• Notable Upregulation
+Identified Genes: NGN, soxC
+Calculated Fold Change: 1.99, 1.67
+Biological Conclusion: The treatment triggers an overexpression or stress-compensatory induction in these targets.
+
+• Negligible Change
+Identified Genes: synB, pak3
+Calculated Fold Change: 1.04, 1.07
+Biological Conclusion: Pathways remain unaffected, demonstrating the high specificity of the inhibitor.
+
+Final Conclusion:
+The inhibitor is highly specific, generating a divergent regulatory response rather than a systemic cellular shutdown. It successfully represses targeted developmental genes while simultaneously triggering a distinct stress response.
