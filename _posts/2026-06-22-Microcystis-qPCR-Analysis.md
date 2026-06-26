@@ -39,21 +39,21 @@ Target Genes Selection
 **Calculation Workflow (The Livak Method)**
 To analyze the relative fold change in gene expression between the **Inhibitor Treatment** and **DMSO Control**, we utilize the comparative Ct method.
 
-1. **Normalization (ΔCt):** Corrects for differences in input amount and RNA quality.
-   > ΔCt = Ct (Target) - Ct (Reference Gene)
+1. **Normalization (ΔCt):** Corrects for differences in input amount and RNA quality. 
+ > ΔCt = Ct (Target) - Ct (Reference Gene)
 
 2. **Relative Difference (ΔΔCt):** Compares treatment against the control baseline.
-   > ΔΔCt = ΔCt (Treatment) - ΔCt (Control)
+ > ΔΔCt = ΔCt (Treatment) - ΔCt (Control)
 
 3. **Fold Change:** Determines the final expression ratio.
-   > Fold Change = 2<sup>-ΔΔCt</sup>
+ > Fold Change = 2<sup>-ΔΔCt</sup>
 ---
 
 # 📈 Data Visualization
 
 *(Below is the visual representation of the calculated Fold Changes comparing the Inhibitor treatment vs. DMSO Control)*
 
-![alt text](image-1.png)
+(![alt text](image.png))
 
 ## 💡 Final Conclusion
 The quantitative analysis demonstrates that the inhibitor is highly specific, generating a divergent regulatory response rather than a systemic cellular shutdown. It successfully represses targeted developmental genes (such as *pitx* and *sm50*) while simultaneously triggering a distinct stress or compensatory response in the *NGN* and *soxC* pathways.
