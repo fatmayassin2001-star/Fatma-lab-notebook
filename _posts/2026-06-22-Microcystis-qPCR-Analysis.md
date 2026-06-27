@@ -53,7 +53,6 @@ To analyze the relative fold change in gene expression between the **Inhibitor T
 
 *(Below is the visual representation of the calculated Fold Changes comparing the Inhibitor treatment vs. DMSO Control)*
 
-![alt text](../images/image-1.png)
-
+![alt text](/Fatma-lab-notebook/images/image-1.png)
 ## 💡 Final Conclusion
 The quantitative analysis demonstrates that the inhibitor is highly specific, generating a divergent regulatory response rather than a systemic cellular shutdown. It successfully represses targeted developmental genes (such as *pitx* and *sm50*) while simultaneously triggering a distinct stress or compensatory response in the *NGN* and *soxC* pathways.
