@@ -13,6 +13,8 @@ title: "qPCR Experimental Design Analysis"
 Experimental Overview
 * Chosen Organism: *Microcystis* (e.g., *Microcystis aeruginosa*)
 * Experimental Stressor: Elevated water temperature combined with nutrient stress (e.g., altered N:P ratio) to simulate seasonal transitions and algal bloom triggers.
+* Control Group: Cultures maintained under optimal growth conditions without heat or nutrient stress, serving as the baseline for comparison.
+* Experimental Rationale: Elevated temperature and nutrient imbalance are among the primary environmental drivers of cyanobacterial blooms. These conditions are frequently associated with increased production of taste-and-odor compounds in freshwater systems, making them biologically relevant stressors for this study.
 
 Target Genes Selection
 
@@ -32,21 +34,23 @@ Target Genes Selection
 * Biological Function: Encodes the RNA polymerase gamma subunit.
 * Justification for Stability: Essential for basal transcription and cell viability. It exhibits constitutive expression, remaining highly stable across environmental fluctuations for accurate normalization.
 
+## Hypothesis
+Elevated temperature and nutrient stress are expected to increase the expression of geoA and mic genes in Microcystis, reflecting an increased genetic potential for geosmin and 2-MIB production. In contrast, the reference gene rpoC1 is expected to remain stable because it is involved in essential cellular transcription processes.
+
 ---
 
 ## Part 2: Data Interpretation (ΔΔCt Method)
 
-**Calculation Workflow (The Livak Method)**
+**Calculation Workflow (Livak ΔΔCt Method)**
 To analyze the relative fold change in gene expression between the **Inhibitor Treatment** and **DMSO Control**, we utilize the comparative Ct method.
 
 1. **Normalization (ΔCt):** Corrects for differences in input amount and RNA quality. 
- > ΔCt = Ct (Target) - Ct (Reference Gene)
+> ΔCt = Ct (Target) - Ct (Reference Gene)
 
 2. **Relative Difference (ΔΔCt):** Compares treatment against the control baseline.
- > ΔΔCt = ΔCt (Treatment) - ΔCt (Control)
+> ΔΔCt = ΔCt (Treatment) - ΔCt (Control)
 
-3. **Fold Change:** Determines the final expression ratio.
- > Fold Change = 2<sup>-ΔΔCt</sup>
+3. **Fold Change:** Determines the final expression ratio. > Fold Change = 2<sup>-ΔΔCt</sup>
 ---
 
 # 📈 Data Visualization
@@ -56,4 +60,4 @@ To analyze the relative fold change in gene expression between the **Inhibitor T
 ![alt text](../images/image-1.png)
 
 ## 💡 Final Conclusion
-The quantitative analysis demonstrates that the inhibitor is highly specific, generating a divergent regulatory response rather than a systemic cellular shutdown. It successfully represses targeted developmental genes (such as *pitx* and *sm50*) while simultaneously triggering a distinct stress or compensatory response in the *NGN* and *soxC* pathways.
+The relative quantification analysis suggests that the inhibitor produces a selective transcriptional response rather than a global cellular shutdown. It successfully represses targeted developmental genes (such as pitx and sm50) while simultaneously triggering a distinct stress or compensatory response in the NGN and soxC pathways.
