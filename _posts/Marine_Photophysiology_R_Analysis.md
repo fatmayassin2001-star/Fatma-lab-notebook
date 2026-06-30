@@ -87,11 +87,12 @@ Raw measurements were organized into CSV format and analyzed using the **R stati
 ## 4. Results
 
 ### 4.1. Species Composition
->**[... / BAR GRAPH HERE]**
->*Figure 6: Relative representation of macroalgal taxa collected during the survey.*
+>**[![alt text](image-7.png)]**
+>*Figure 6: Relative distribution of macroalgal taxa collected along the South-to-North transect. The pie chart illustrates the proportional representation of each species within the total sampled population.*
 
 
 >*Table 2: Summary of identified macroalgal species and the number of specimens analyzed.*
+Representative data from the analyzed specimens is presented in Table 3
 | Macroalgal Taxon | Taxonomic Group | Number of Specimens Analyzed |
 | :--- | :--- | :---: |
 | *Ulva* sp. | Chlorophyta | 3 |
@@ -119,25 +120,9 @@ Raw measurements were organized into CSV format and analyzed using the **R stati
 | S5 | *Laurencia papillosa* | 0.69 | 0.19 | 155 | 815 |
 
 ### 4.3. Photosynthesis–Irradiance Relationships
->**[... RLC GRAPH FROM R ]**
+>**[![alt text](image-8.png) ]**
+>*Figure 8: Comparison of ETRmax values among macroalgal taxa.*
 
->*Figure 6: Comparison of ETRmax values among macroalgal taxa.*
-
-
->**[ETRMAX COMPARISON GRAPH ]**
-
->*Figure 7: Comparison of ETRmax values among macroalgal taxa.*
-
->**[ ALPHA COMPARISON GRAPH ]**
-
->*Figure 8: Comparison of α (Alpha) values among macroalgal taxa.*
-
->**[ IK COMPARISON GRAPH ]**
-
->*Figure 9: Comparison of Ik (Saturation Irradiance) values among macroalgal taxa.*
-
->**[ FV/FM COMPARISON GRAPH ]**
->*Figure 10: Comparison of Fv/Fm values among macroalgal taxa.*
 
 ---
 
