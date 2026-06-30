@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Photophysiological Characterization of Marine Macroalgae Using R"
+date: 2026-06-30
 description: "Data analysis of Rapid Light Curves (RLC) to extract photophysiological parameters using PAM fluorometry."
 tags: [R, Data Analysis, Marine Biology, PAM]
 ---
