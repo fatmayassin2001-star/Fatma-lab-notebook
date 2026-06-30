@@ -22,11 +22,9 @@ Field sampling was conducted from a research vessel along the coastal zone of Sd
 
 Samples were collected across a gradient of light exposure, ranging from highly illuminated shallow waters to deeper, shaded microhabitats.
 
-> **[...]**
+>**[![alt text](image-1.png)]**
 > *Figure 1: Sampling location and field survey conducted from the research vessel at Sdot Yam.*
 
-> **[...]**
-> *Figure 2: Illustration of the South-to-North sampling transect used during the survey.*
 
 ---
 
@@ -35,17 +33,20 @@ Samples were collected across a gradient of light exposure, ranging from highly 
 ### 3.1. Sample Collection and Species Identification
 Macroalgae were transported to the laboratory immediately after collection. Species identification relied on morphological characteristics and field guides. Specimens from the same taxonomic group were separated and labeled, while excess biomass was safely returned to the sea. The identified taxa included representatives of Rhodophyta (red), Phaeophyceae (brown), and Chlorophyta (green) algae.
 
-> **[...]**
-> *Figure 3: Representative macroalgal species identified, including Laurencia, Galaxaura, Gracilaria, Asparagopsis, Hypnea, Dictyota, Colpomenia, Padina, Sargassum, and Codium.*
+>**[![alt text](image-2.png)![alt text](image-3.png)]**
+>*Figures 2 and 3 : Representative macroalgal species identified, including Laurencia, Galaxaura, Gracilaria, Asparagopsis, Hypnea, Dictyota, Colpomenia, Padina, Sargassum, and Codium.*
 
-> **[INSERT METADATA TABLE HERE]**
-> *Table 1: Metadata describing all collected specimens, sampling locations, specific habitats, and taxonomic identification.*
+>**[INSERT METADATA TABLE HERE]**
+>*Table 1: Metadata describing all collected specimens, sampling locations, specific habitats, and taxonomic identification.*
 
 ### 3.2. PAM Fluorometry & Dark Adaptation
 Photosynthetic performance was assessed using a PAM fluorometer, which measures changes in chlorophyll fluorescence emitted by tissues following controlled light pulses to evaluate PSII activity.
 
-> **[...]**
-> *Figure 4: The Pulse-Amplitude-Modulated (PAM) fluorometer used for physiological measurements.*
+>**[![alt text](![alt text](image-4.png))]**
+>*Figure 4: The Pulse-Amplitude-Modulated (PAM) fluorometer used for physiological measurements.*
+
+> **[![alt text](image-5.png)]**
+> *Figure 5: Software interface (ImagingWin) displaying false-color fluorescence images of the macroalgae. Polygons indicate the selected Areas of Interest (AOIs) used to extract physiological parameters.*
 
 Prior to measurement, all samples underwent a **15–30 minute dark-adaptation period**. This step is critical because ambient light exposure temporarily closes a fraction of PSII reaction centers. Darkness allows these centers to reopen and permits the relaxation of non-photochemical quenching (NPQ), ensuring all samples are measured from a standardized baseline.
 
@@ -70,31 +71,32 @@ Raw measurements were organized into CSV format and analyzed using the **R stati
 ## 4. Results
 
 ### 4.1. Species Composition
-> **[... / BAR GRAPH HERE]**
-> *Figure 5: Relative representation of macroalgal taxa collected during the survey.*
+>**[... / BAR GRAPH HERE]**
+>*Figure 6: Relative representation of macroalgal taxa collected during the survey.*
 
-> **[INSERT SPECIES SUMMARY TABLE HERE]**
-> *Table 2: Summary of identified macroalgal species and the number of specimens analyzed.*
+>**[INSERT SPECIES SUMMARY TABLE HERE]**
+>*Table 2: Summary of identified macroalgal species and the number of specimens analyzed.*
 
 ### 4.2. Photophysiological Parameters
-> **[... PARAMETERS TABLE ]**
-> *Table 3: Summary of extracted photophysiological parameters (Fv/Fm, α, ETRmax, Ik) for all analyzed samples.*
+>**[... PARAMETERS TABLE ]**
+>*Table 3: Summary of extracted photophysiological parameters (Fv/Fm, α, ETRmax, Ik) for all analyzed samples.*
 
 ### 4.3. Photosynthesis–Irradiance Relationships
-> **[... RLC GRAPH FROM R ]**
-> *Figure 6: Rapid Light Curves (RLCs) displaying ETR versus irradiance for the analyzed taxa.*
+>**[... RLC GRAPH FROM R ]**
+>*Figure 6: Comparison of ETRmax values among macroalgal taxa.*
 
-> **[ETRMAX COMPARISON GRAPH ]**
-> *Figure 7: Comparison of ETRmax values among macroalgal taxa.*
 
-> **[ ALPHA COMPARISON GRAPH ]**
-> *Figure 8: Comparison of α (Alpha) values among macroalgal taxa.*
+>**[ETRMAX COMPARISON GRAPH ]**
+>*Figure 7: Comparison of ETRmax values among macroalgal taxa.*
 
-> **[ IK COMPARISON GRAPH ]**
-> *Figure 9: Comparison of Ik (Saturation Irradiance) values among macroalgal taxa.*
+>**[ ALPHA COMPARISON GRAPH ]**
+>*Figure 8: Comparison of α (Alpha) values among macroalgal taxa.*
 
-> **[ FV/FM COMPARISON GRAPH ]**
-> *Figure 10: Comparison of Fv/Fm values among macroalgal taxa.*
+>**[ IK COMPARISON GRAPH ]**
+>*Figure 9: Comparison of Ik (Saturation Irradiance) values among macroalgal taxa.*
+
+>**[ FV/FM COMPARISON GRAPH ]**
+>*Figure 10: Comparison of Fv/Fm values among macroalgal taxa.*
 
 ---
 
