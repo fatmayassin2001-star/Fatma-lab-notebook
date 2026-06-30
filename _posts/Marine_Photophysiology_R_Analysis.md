@@ -38,8 +38,20 @@ Macroalgae were transported to the laboratory immediately after collection. Spec
 
 >*Figures 2 and 3 : Representative macroalgal species identified, including Laurencia, Galaxaura, Gracilaria, Asparagopsis, Hypnea, Dictyota, Colpomenia, Padina, Sargassum, and Codium.*
 
->**[INSERT METADATA TABLE HERE]**
 >*Table 1: Metadata describing all collected specimens, sampling locations, specific habitats, and taxonomic identification.*
+| Taxon | Transect | Habitat |
+| :--- | :--- | :--- |
+| *Ulva* sp. | S-N | Shallow |
+| *Codium* sp. | S-N | Deep / Shaded |
+| *Padina pavonica* | S-N | Shallow / Exposed |
+| *Dictyota fasciola* | S-N | Medium / Shaded |
+| *Laurencia papillosa* | S-N | Shallow |
+| *Galaxaura* sp. | S-N | Deep |
+| *Gracilaria* sp. | S-N | Medium |
+| *Asparagopsis* sp. | S-N | Deep / Shaded |
+| *Hypnea* sp. | S-N | Medium |
+| *Sargassum* sp. | S-N | Shallow / Exposed |
+Data organization performed in R; metadata table exported directly from the experimental dataset (Mock_Photophysiology_2026.csv)
 
 ### 3.2. PAM Fluorometry & Dark Adaptation
 Photosynthetic performance was assessed using a PAM fluorometer, which measures changes in chlorophyll fluorescence emitted by tissues following controlled light pulses to evaluate PSII activity.
@@ -78,12 +90,33 @@ Raw measurements were organized into CSV format and analyzed using the **R stati
 >**[... / BAR GRAPH HERE]**
 >*Figure 6: Relative representation of macroalgal taxa collected during the survey.*
 
->**[INSERT SPECIES SUMMARY TABLE HERE]**
+
 >*Table 2: Summary of identified macroalgal species and the number of specimens analyzed.*
+| Macroalgal Taxon | Taxonomic Group | Number of Specimens Analyzed |
+| :--- | :--- | :---: |
+| *Ulva* sp. | Chlorophyta | 3 |
+| *Codium* sp. | Chlorophyta | 2 |
+| *Padina pavonica* | Phaeophyceae | 4 |
+| *Dictyota fasciola* | Phaeophyceae | 3 |
+| *Laurencia papillosa* | Rhodophyta | 4 |
+| *Galaxaura* sp. | Rhodophyta | 2 |
+| *Gracilaria* sp. | Rhodophyta | 3 |
+| *Asparagopsis* sp. | Rhodophyta | 2 |
+| *Hypnea* sp. | Rhodophyta | 3 |
+| *Sargassum* sp. | Phaeophyceae | 2 |
+| **Total** | | **28** |
 
 ### 4.2. Photophysiological Parameters
->**[... PARAMETERS TABLE ]**
+
 >*Table 3: Summary of extracted photophysiological parameters (Fv/Fm, α, ETRmax, Ik) for all analyzed samples.*
+
+| Specimen ID | Species | Fv/Fm | α (Alpha) | ETRmax | Ik (μmol photons m⁻² s⁻¹) |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| S1 | *Ulva* sp. | 0.68 | 0.22 | 145 | 659 |
+| S2 | *Codium* sp. | 0.62 | 0.28 | 98 | 350 |
+| S3 | *Padina pavonica* | 0.71 | 0.18 | 165 | 916 |
+| S4 | *Dictyota fasciola* | 0.65 | 0.25 | 115 | 460 |
+| S5 | *Laurencia papillosa* | 0.69 | 0.19 | 155 | 815 |
 
 ### 4.3. Photosynthesis–Irradiance Relationships
 >**[... RLC GRAPH FROM R ]**
