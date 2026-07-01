@@ -23,7 +23,7 @@ Field sampling was conducted from a research vessel along the coastal zone of Sd
 
 Samples were collected across a gradient of light exposure, ranging from highly illuminated shallow waters to deeper, shaded microhabitats.
 
->**[![alt text](image-1.png)]**
+>**[![alt text](images/image-1.png)]**
 
 > *Figure 1: Sampling location and field survey conducted from the research vessel at Sdot Yam.*
 
@@ -35,7 +35,7 @@ Samples were collected across a gradient of light exposure, ranging from highly 
 ### 3.1. Sample Collection and Species Identification
 Macroalgae were transported to the laboratory immediately after collection. Species identification relied on morphological characteristics and field guides. Specimens from the same taxonomic group were separated and labeled, while excess biomass was safely returned to the sea. The identified taxa included representatives of Rhodophyta (red), Phaeophyceae (brown), and Chlorophyta (green) algae.
 
->**[![alt text](image-2.png)![alt text](image-3.png)]**
+>**[![alt text](images/image-2.png)![alt text](images/image-3.png)]**
 
 >*Figures 2 and 3 : Representative macroalgal species identified, including Laurencia, Galaxaura, Gracilaria, Asparagopsis, Hypnea, Dictyota, Colpomenia, Padina, Sargassum, and Codium.*
 
@@ -57,11 +57,11 @@ Data organization performed in R; metadata table exported directly from the expe
 ### 3.2. PAM Fluorometry & Dark Adaptation
 Photosynthetic performance was assessed using a PAM fluorometer, which measures changes in chlorophyll fluorescence emitted by tissues following controlled light pulses to evaluate PSII activity.
 
->**[![alt text](![alt text](image-4.png))]**
+>**[![alt text](![alt text](images/image-4.png))]**
 
 >*Figure 4: The Pulse-Amplitude-Modulated (PAM) fluorometer used for physiological measurements.*
 
-> **[![alt text](image-5.png)]**
+> **[![alt text](images/image-5.png)]**
 
 > *Figure 5: Software interface (ImagingWin) displaying false-color fluorescence images of the macroalgae. Polygons indicate the selected Areas of Interest (AOIs) used to extract physiological parameters.*
 
@@ -88,7 +88,7 @@ Raw measurements were organized into CSV format and analyzed using the **R stati
 ## 4. Results
 
 ### 4.1. Species Composition
->**[![alt text](image-6.png)]**
+>**[![alt text](images/image-6.png)]**
 >*Figure 6: Relative distribution of macroalgal taxa collected along the South-to-North transect. The pie chart illustrates the proportional representation of each species within the total sampled population.*
 
 
@@ -121,14 +121,14 @@ Representative data from the analyzed specimens is presented in Table 3
 | S5 | *Laurencia papillosa* | 0.69 | 0.19 | 155 | 815 |
 
 ### 4.3. Photosynthesis–Irradiance Relationships
->**[![alt text](image-7.png) ]**
+>**[![alt text](images/image-7.png) ]**
 >*Figure 8: Comparison of ETRmax values among macroalgal taxa.*
 
 ### 4.4 Parameter Intercorrelation Matrix
 This analysis examines the strength and direction of the relationships between the different photophysiological parameters (Fv/Fm, α, ETRmax, Ik). 
 Understanding these correlations is essential for interpreting how different species balance their photosynthetic capacity with light-harvesting efficiency.
 
-(![alt text](image-8.png))
+(![alt text](images/image-8.png))
 *Figure 8: Heatmap correlation matrix showing the interdependencies between photosynthetic variables. High positive correlations are highlighted, revealing fundamental physiological tradeoffs among the sampled taxa.*
 
 
