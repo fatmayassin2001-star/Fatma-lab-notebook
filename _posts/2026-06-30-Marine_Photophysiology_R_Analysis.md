@@ -40,6 +40,7 @@ Macroalgae were transported to the laboratory immediately after collection. Spec
 >*Figures 2 and 3 : Representative macroalgal species identified, including Laurencia, Galaxaura, Gracilaria, Asparagopsis, Hypnea, Dictyota, Colpomenia, Padina, Sargassum, and Codium.*
 
 >*Table 1: Metadata describing all collected specimens, sampling locations, specific habitats, and taxonomic identification.*
+
 | Taxon | Transect | Habitat |
 | :--- | :--- | :--- |
 | *Ulva* sp. | S-N | Shallow |
@@ -52,7 +53,8 @@ Macroalgae were transported to the laboratory immediately after collection. Spec
 | *Asparagopsis* sp. | S-N | Deep / Shaded |
 | *Hypnea* sp. | S-N | Medium |
 | *Sargassum* sp. | S-N | Shallow / Exposed |
-Data organization performed in R; metadata table exported directly from the experimental dataset (Mock_Photophysiology_2026.csv)
+
+*Data organization performed in R; metadata table exported directly from the experimental dataset (Mock_Photophysiology_2026.csv).*
 
 ### 3.2. PAM Fluorometry & Dark Adaptation
 Photosynthetic performance was assessed using a PAM fluorometer, which measures changes in chlorophyll fluorescence emitted by tissues following controlled light pulses to evaluate PSII activity.
