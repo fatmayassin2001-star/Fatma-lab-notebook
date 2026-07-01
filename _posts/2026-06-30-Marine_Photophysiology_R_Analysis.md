@@ -94,7 +94,8 @@ Raw measurements were organized into CSV format and analyzed using the **R stati
 >*Figure 6: Relative distribution of macroalgal taxa collected along the South-to-North transect. The pie chart illustrates the proportional representation of each species within the total sampled population.*
 
 
->*Table 2: Summary of identified macroalgal species and the number of specimens analyzed.*
+> Table*2: Summary of identified macroalgal species and the number of specimens analyzed.
+
 | Macroalgal Taxon | Taxonomic Group | Number of Specimens Analyzed |
 | :--- | :--- | :---: |
 | *Ulva* sp. | Chlorophyta | 3 |
@@ -108,7 +109,8 @@ Raw measurements were organized into CSV format and analyzed using the **R stati
 | *Hypnea* sp. | Rhodophyta | 3 |
 | *Sargassum* sp. | Phaeophyceae | 2 |
 | **Total** | | **28** |
-Representative data from the analyzed specimens is presented in Table 3
+
+Representative data from the analyzed specimens is presented in Table 3.
 
 ### 4.2. Photophysiological Parameters
 
