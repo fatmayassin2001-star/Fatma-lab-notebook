@@ -88,12 +88,11 @@ Raw measurements were organized into CSV format and analyzed using the **R stati
 ## 4. Results
 
 ### 4.1. Species Composition
->**[![alt text](image-7.png)]**
+>**[![alt text](image-6.png)]**
 >*Figure 6: Relative distribution of macroalgal taxa collected along the South-to-North transect. The pie chart illustrates the proportional representation of each species within the total sampled population.*
 
 
 >*Table 2: Summary of identified macroalgal species and the number of specimens analyzed.*
-Representative data from the analyzed specimens is presented in Table 3
 | Macroalgal Taxon | Taxonomic Group | Number of Specimens Analyzed |
 | :--- | :--- | :---: |
 | *Ulva* sp. | Chlorophyta | 3 |
@@ -107,6 +106,7 @@ Representative data from the analyzed specimens is presented in Table 3
 | *Hypnea* sp. | Rhodophyta | 3 |
 | *Sargassum* sp. | Phaeophyceae | 2 |
 | **Total** | | **28** |
+Representative data from the analyzed specimens is presented in Table 3
 
 ### 4.2. Photophysiological Parameters
 
@@ -121,11 +121,19 @@ Representative data from the analyzed specimens is presented in Table 3
 | S5 | *Laurencia papillosa* | 0.69 | 0.19 | 155 | 815 |
 
 ### 4.3. Photosynthesis–Irradiance Relationships
->**[![alt text](image-8.png) ]**
+>**[![alt text](image-7.png) ]**
 >*Figure 8: Comparison of ETRmax values among macroalgal taxa.*
+
+### 4.4 Parameter Intercorrelation Matrix
+This analysis examines the strength and direction of the relationships between the different photophysiological parameters (Fv/Fm, α, ETRmax, Ik). 
+Understanding these correlations is essential for interpreting how different species balance their photosynthetic capacity with light-harvesting efficiency.
+
+(![alt text](image-8.png))
+*Figure 8: Heatmap correlation matrix showing the interdependencies between photosynthetic variables. High positive correlations are highlighted, revealing fundamental physiological tradeoffs among the sampled taxa.*
 
 
 ---
+
 
 ## 5. Discussion
 The results demonstrate significant variability in photophysiological performance among the analyzed taxa, reflecting their distinct ecological niches. 
