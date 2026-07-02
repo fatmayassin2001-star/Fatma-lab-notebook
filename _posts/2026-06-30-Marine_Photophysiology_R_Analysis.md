@@ -41,6 +41,7 @@ Macroalgae were transported to the laboratory immediately after collection. Spec
 >*Figures 2 and 3 : Representative macroalgal species identified, including Laurencia, Galaxaura, Gracilaria, Asparagopsis, Hypnea, Dictyota, Colpomenia, Padina, Sargassum, and Codium.*
 
 >*Table 1: Metadata describing all collected specimens, sampling locations, specific habitats, and taxonomic identification.*
+
 | Taxon | Transect | Habitat |
 | :--- | :--- | :--- |
 | *Ulva* sp. | S-N | Shallow |
@@ -53,7 +54,8 @@ Macroalgae were transported to the laboratory immediately after collection. Spec
 | *Asparagopsis* sp. | S-N | Deep / Shaded |
 | *Hypnea* sp. | S-N | Medium |
 | *Sargassum* sp. | S-N | Shallow / Exposed |
-Data organization performed in R; metadata table exported directly from the experimental dataset (Mock_Photophysiology_2026.csv)
+
+*Data organization performed in R; metadata table exported directly from the experimental dataset (Mock_Photophysiology_2026.csv).*
 
 ### 3.2. PAM Fluorometry & Dark Adaptation
 Photosynthetic performance was assessed using a PAM fluorometer, which measures changes in chlorophyll fluorescence emitted by tissues following controlled light pulses to evaluate PSII activity.
@@ -93,7 +95,8 @@ Raw measurements were organized into CSV format and analyzed using the **R stati
 >*Figure 6: Relative distribution of macroalgal taxa collected along the South-to-North transect. The pie chart illustrates the proportional representation of each species within the total sampled population.*
 
 
->*Table 2: Summary of identified macroalgal species and the number of specimens analyzed.*
+>Table 2: Summary of identified macroalgal species and the number of specimens analyzed.
+
 | Macroalgal Taxon | Taxonomic Group | Number of Specimens Analyzed |
 | :--- | :--- | :---: |
 | *Ulva* sp. | Chlorophyta | 3 |
@@ -107,7 +110,8 @@ Raw measurements were organized into CSV format and analyzed using the **R stati
 | *Hypnea* sp. | Rhodophyta | 3 |
 | *Sargassum* sp. | Phaeophyceae | 2 |
 | **Total** | | **28** |
-Representative data from the analyzed specimens is presented in Table 3
+
+Representative data from the analyzed specimens is presented in Table 3.
 
 ### 4.2. Photophysiological Parameters
 
