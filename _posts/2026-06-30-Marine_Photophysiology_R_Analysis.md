@@ -23,7 +23,7 @@ Field sampling was conducted from a research vessel along the coastal zone of Sd
 
 Samples were collected across a gradient of light exposure, ranging from highly illuminated shallow waters to deeper, shaded microhabitats.
 
->**[![alt text](images/image-1.png) ]**
+![Figure 1]({{ '/assets/images/image-1.png' | relative_url }})
 
 > *Figure 1: Sampling location and field survey conducted from the research vessel at Sdot Yam.*
 
@@ -35,12 +35,12 @@ Samples were collected across a gradient of light exposure, ranging from highly 
 ### 3.1. Sample Collection and Species Identification
 Macroalgae were transported to the laboratory immediately after collection. Species identification relied on morphological characteristics and field guides. Specimens from the same taxonomic group were separated and labeled, while excess biomass was safely returned to the sea. The identified taxa included representatives of Rhodophyta (red), Phaeophyceae (brown), and Chlorophyta (green) algae.
 
->**[![alt text](images/image-2.png) ][![alt text](images/image-3.png) ]**
+![Figure 2]({{ '/assets/images/image-2.png' | relative_url }})
+![Figure 3]({{ '/assets/images/image-3.png' | relative_url }})
 
 >*Figures 2 and 3 : Representative macroalgal species identified, including Laurencia, Galaxaura, Gracilaria, Asparagopsis, Hypnea, Dictyota, Colpomenia, Padina, Sargassum, and Codium.*
 
 >*Table 1: Metadata describing all collected specimens, sampling locations, specific habitats, and taxonomic identification.*
-
 | Taxon | Transect | Habitat |
 | :--- | :--- | :--- |
 | *Ulva* sp. | S-N | Shallow |
@@ -53,17 +53,16 @@ Macroalgae were transported to the laboratory immediately after collection. Spec
 | *Asparagopsis* sp. | S-N | Deep / Shaded |
 | *Hypnea* sp. | S-N | Medium |
 | *Sargassum* sp. | S-N | Shallow / Exposed |
-
-*Data organization performed in R; metadata table exported directly from the experimental dataset (Mock_Photophysiology_2026.csv).*
+Data organization performed in R; metadata table exported directly from the experimental dataset (Mock_Photophysiology_2026.csv)
 
 ### 3.2. PAM Fluorometry & Dark Adaptation
 Photosynthetic performance was assessed using a PAM fluorometer, which measures changes in chlorophyll fluorescence emitted by tissues following controlled light pulses to evaluate PSII activity.
 
->**[![alt text](images/image-4.png) ]**
+![Figure 4]({{ '/assets/images/image-4.png' | relative_url }})
 
 >*Figure 4: The Pulse-Amplitude-Modulated (PAM) fluorometer used for physiological measurements.*
 
-> **[![alt text](images/image-5.png)]**
+![Figure 5]({{ '/assets/images/image-5.png' | relative_url }})
 
 > *Figure 5: Software interface (ImagingWin) displaying false-color fluorescence images of the macroalgae. Polygons indicate the selected Areas of Interest (AOIs) used to extract physiological parameters.*
 
@@ -90,12 +89,11 @@ Raw measurements were organized into CSV format and analyzed using the **R stati
 ## 4. Results
 
 ### 4.1. Species Composition
->**[![alt text](images/image-6.png)]**
+![Figure 6]({{ '/assets/images/image-6.png' | relative_url }})
 >*Figure 6: Relative distribution of macroalgal taxa collected along the South-to-North transect. The pie chart illustrates the proportional representation of each species within the total sampled population.*
 
 
-> Table*2: Summary of identified macroalgal species and the number of specimens analyzed.
-
+>*Table 2: Summary of identified macroalgal species and the number of specimens analyzed.*
 | Macroalgal Taxon | Taxonomic Group | Number of Specimens Analyzed |
 | :--- | :--- | :---: |
 | *Ulva* sp. | Chlorophyta | 3 |
@@ -109,8 +107,7 @@ Raw measurements were organized into CSV format and analyzed using the **R stati
 | *Hypnea* sp. | Rhodophyta | 3 |
 | *Sargassum* sp. | Phaeophyceae | 2 |
 | **Total** | | **28** |
-
-Representative data from the analyzed specimens is presented in Table 3.
+Representative data from the analyzed specimens is presented in Table 3
 
 ### 4.2. Photophysiological Parameters
 
@@ -125,14 +122,15 @@ Representative data from the analyzed specimens is presented in Table 3.
 | S5 | *Laurencia papillosa* | 0.69 | 0.19 | 155 | 815 |
 
 ### 4.3. Photosynthesis–Irradiance Relationships
->**[![alt text](images/image-7.png) ]**
->*Figure 8: Comparison of ETRmax values among macroalgal taxa.*
+![Figure 7]({{ '/assets/images/image-7.png' | relative_url }})
+
+>*Figure 7: Comparison of ETRmax values among macroalgal taxa.*
 
 ### 4.4 Parameter Intercorrelation Matrix
 This analysis examines the strength and direction of the relationships between the different photophysiological parameters (Fv/Fm, α, ETRmax, Ik). 
 Understanding these correlations is essential for interpreting how different species balance their photosynthetic capacity with light-harvesting efficiency.
 
-(![alt text](images/image-8.png))
+![Figure 8]({{ '/assets/images/image-8.png' | relative_url }})
 *Figure 8: Heatmap correlation matrix showing the interdependencies between photosynthetic variables. High positive correlations are highlighted, revealing fundamental physiological tradeoffs among the sampled taxa.*
 
 
