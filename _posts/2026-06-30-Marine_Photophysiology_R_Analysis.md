@@ -23,7 +23,7 @@ Field sampling was conducted from a research vessel along the coastal zone of Sd
 
 Samples were collected across a gradient of light exposure, ranging from highly illuminated shallow waters to deeper, shaded microhabitats.
 
->**[![Figure 1](/image-1.png)]**
+>**[![alt text](images/image-1.png) ]**
 
 > *Figure 1: Sampling location and field survey conducted from the research vessel at Sdot Yam.*
 
@@ -35,7 +35,7 @@ Samples were collected across a gradient of light exposure, ranging from highly 
 ### 3.1. Sample Collection and Species Identification
 Macroalgae were transported to the laboratory immediately after collection. Species identification relied on morphological characteristics and field guides. Specimens from the same taxonomic group were separated and labeled, while excess biomass was safely returned to the sea. The identified taxa included representatives of Rhodophyta (red), Phaeophyceae (brown), and Chlorophyta (green) algae.
 
->**[![Figure 2](/image-2.png)][![Figure 3](/image-3.png)]**
+>**[![alt text](images/image-2.png) ][![alt text](images/image-3.png) ]**
 
 >*Figures 2 and 3 : Representative macroalgal species identified, including Laurencia, Galaxaura, Gracilaria, Asparagopsis, Hypnea, Dictyota, Colpomenia, Padina, Sargassum, and Codium.*
 
@@ -59,7 +59,7 @@ Macroalgae were transported to the laboratory immediately after collection. Spec
 ### 3.2. PAM Fluorometry & Dark Adaptation
 Photosynthetic performance was assessed using a PAM fluorometer, which measures changes in chlorophyll fluorescence emitted by tissues following controlled light pulses to evaluate PSII activity.
 
->**[![alt text](![alt text](images/image-4.png))]**
+>**[![alt text](images/image-4.png) ]**
 
 >*Figure 4: The Pulse-Amplitude-Modulated (PAM) fluorometer used for physiological measurements.*
 
