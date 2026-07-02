@@ -24,6 +24,7 @@ Field sampling was conducted from a research vessel along the coastal zone of Sd
 Samples were collected across a gradient of light exposure, ranging from highly illuminated shallow waters to deeper, shaded microhabitats.
 
 ![Figure 1]({{ '/assets/images/image-1.png' | relative_url }})
+
 *Figure 1: Sampling location and field survey conducted from the research vessel at Sdot Yam.*
 
 
@@ -36,6 +37,7 @@ Macroalgae were transported to the laboratory immediately after collection. Spec
 
 ![Figure 2]({{ '/assets/images/image-2.png' | relative_url }})
 ![Figure 3]({{ '/assets/images/image-3.png' | relative_url }})
+
 *Figures 2 and 3 : Representative macroalgal species identified, including Laurencia, Galaxaura, Gracilaria, Asparagopsis, Hypnea, Dictyota, Colpomenia, Padina, Sargassum, and Codium.*
 
 *Table 1: Metadata describing all collected specimens, sampling locations, specific habitats, and taxonomic identification.*
@@ -88,6 +90,7 @@ Raw measurements were organized into CSV format and analyzed using the **R stati
 
 ### 4.1. Species Composition
 ![Figure 6]({{ '/assets/images/image-6.png' | relative_url }})
+
 *Figure 6: Relative distribution of macroalgal taxa collected along the South-to-North transect. The pie chart illustrates the proportional representation of each species within the total sampled population.*
 
 
