@@ -24,8 +24,7 @@ Field sampling was conducted from a research vessel along the coastal zone of Sd
 Samples were collected across a gradient of light exposure, ranging from highly illuminated shallow waters to deeper, shaded microhabitats.
 
 ![Figure 1]({{ '/assets/images/image-1.png' | relative_url }})
-
-> *Figure 1: Sampling location and field survey conducted from the research vessel at Sdot Yam.*
+*Figure 1: Sampling location and field survey conducted from the research vessel at Sdot Yam.*
 
 
 ---
@@ -37,10 +36,9 @@ Macroalgae were transported to the laboratory immediately after collection. Spec
 
 ![Figure 2]({{ '/assets/images/image-2.png' | relative_url }})
 ![Figure 3]({{ '/assets/images/image-3.png' | relative_url }})
+*Figures 2 and 3 : Representative macroalgal species identified, including Laurencia, Galaxaura, Gracilaria, Asparagopsis, Hypnea, Dictyota, Colpomenia, Padina, Sargassum, and Codium.*
 
->*Figures 2 and 3 : Representative macroalgal species identified, including Laurencia, Galaxaura, Gracilaria, Asparagopsis, Hypnea, Dictyota, Colpomenia, Padina, Sargassum, and Codium.*
-
->*Table 1: Metadata describing all collected specimens, sampling locations, specific habitats, and taxonomic identification.*
+*Table 1: Metadata describing all collected specimens, sampling locations, specific habitats, and taxonomic identification.*
 
 | Taxon | Transect | Habitat |
 | :--- | :--- | :--- |
@@ -61,12 +59,10 @@ Macroalgae were transported to the laboratory immediately after collection. Spec
 Photosynthetic performance was assessed using a PAM fluorometer, which measures changes in chlorophyll fluorescence emitted by tissues following controlled light pulses to evaluate PSII activity.
 
 ![Figure 4]({{ '/assets/images/image-4.png' | relative_url }})
-
->*Figure 4: The Pulse-Amplitude-Modulated (PAM) fluorometer used for physiological measurements.*
+*Figure 4: The Pulse-Amplitude-Modulated (PAM) fluorometer used for physiological measurements.*
 
 ![Figure 5]({{ '/assets/images/image-5.png' | relative_url }})
-
-> *Figure 5: Software interface (ImagingWin) displaying false-color fluorescence images of the macroalgae. Polygons indicate the selected Areas of Interest (AOIs) used to extract physiological parameters.*
+*Figure 5: Software interface (ImagingWin) displaying false-color fluorescence images of the macroalgae. Polygons indicate the selected Areas of Interest (AOIs) used to extract physiological parameters.*
 
 Prior to measurement, all samples underwent a **15–30 minute dark-adaptation period**. This step is critical because ambient light exposure temporarily closes a fraction of PSII reaction centers. Darkness allows these centers to reopen and permits the relaxation of non-photochemical quenching (NPQ), ensuring all samples are measured from a standardized baseline.
 
@@ -92,10 +88,10 @@ Raw measurements were organized into CSV format and analyzed using the **R stati
 
 ### 4.1. Species Composition
 ![Figure 6]({{ '/assets/images/image-6.png' | relative_url }})
->*Figure 6: Relative distribution of macroalgal taxa collected along the South-to-North transect. The pie chart illustrates the proportional representation of each species within the total sampled population.*
+*Figure 6: Relative distribution of macroalgal taxa collected along the South-to-North transect. The pie chart illustrates the proportional representation of each species within the total sampled population.*
 
 
->Table 2: Summary of identified macroalgal species and the number of specimens analyzed.
+*Table 2: Summary of identified macroalgal species and the number of specimens analyzed.
 
 | Macroalgal Taxon | Taxonomic Group | Number of Specimens Analyzed |
 | :--- | :--- | :---: |
@@ -115,7 +111,7 @@ Representative data from the analyzed specimens is presented in Table 3.
 
 ### 4.2. Photophysiological Parameters
 
->*Table 3: Summary of extracted photophysiological parameters (Fv/Fm, α, ETRmax, Ik) for all analyzed samples.*
+*Table 3: Summary of extracted photophysiological parameters (Fv/Fm, α, ETRmax, Ik) for all analyzed samples.*
 
 | Specimen ID | Species | Fv/Fm | α (Alpha) | ETRmax | Ik (μmol photons m⁻² s⁻¹) |
 | :--- | :--- | :---: | :---: | :---: | :---: |
@@ -127,8 +123,7 @@ Representative data from the analyzed specimens is presented in Table 3.
 
 ### 4.3. Photosynthesis–Irradiance Relationships
 ![Figure 7]({{ '/assets/images/image-7.png' | relative_url }})
-
->*Figure 7: Comparison of ETRmax values among macroalgal taxa.*
+*Figure 7: Comparison of ETRmax values among macroalgal taxa.*
 
 ### 4.4 Parameter Intercorrelation Matrix
 This analysis examines the strength and direction of the relationships between the different photophysiological parameters (Fv/Fm, α, ETRmax, Ik). 
