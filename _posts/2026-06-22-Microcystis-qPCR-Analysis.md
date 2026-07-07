@@ -57,7 +57,7 @@ To analyze the relative fold change in gene expression between the **Inhibitor T
 
 *(Below is the visual representation of the calculated Fold Changes comparing the Inhibitor treatment vs. DMSO Control)*
 
-![alt text](../images/image-1.png)
+![alt text]({{ '/assets/images/qPCR/qPCR.png' | relative_url }})
 
 ## 💡 Final Conclusion
 The relative quantification analysis suggests that the inhibitor produces a selective transcriptional response rather than a global cellular shutdown. It successfully represses targeted developmental genes (such as pitx and sm50) while simultaneously triggering a distinct stress or compensatory response in the NGN and soxC pathways.
