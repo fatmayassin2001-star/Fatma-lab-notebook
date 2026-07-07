@@ -27,7 +27,7 @@ A reference sequence of the 16S rRNA gene belonging to *Microcystis* sp. was ret
 | **Gene** | 16S rRNA |
 | **NCBI Accession Number** | `NR_074314.1` |
 
-> Screenshot 1: NCBI Sequence Page > ![alt text](../images/image-1.png)
+> Screenshot 1: NCBI Sequence Page > ![alt text]({{ '/assets/images/protocol-design/image-1.png' | relative_url }})
 
 
 
@@ -42,7 +42,7 @@ To identify closely related species, the reference sequence was analyzed using *
 | `MT835121.1` | Cyanobacterium strain |
 | `PP272457.1` | Cyanobacterium isolate |
 
-> Screenshot 2: BLAST Results > ![alt text](../images/image-2.png)
+> Screenshot 2: BLAST Results > ![alt text]({{ '/assets/images/protocol-design/image-2.png' | relative_url }})
 
 ---
 
@@ -55,7 +55,7 @@ The FASTA sequences of the selected organisms were imported into **MEGA** softwa
 **Identification of Conserved and Variable Regions:**
 The multiple sequence alignment output highlighted highly **conserved regions** across all aligned cyanobacterial sequences (indicated by identical nucleotide columns, useful for primer anchoring). It also revealed **variable regions** (including SNPs and indels), which provide the genetic resolution needed to differentiate the species phylogenetically.
 
-> Screenshot 3: Multiple Sequence Alignment Output> ![alt text](../images/image-3.png)![alt text](../images/image-4.png)
+> Screenshot 3: Multiple Sequence Alignment Output> ![alt text]({{ '/assets/images/protocol-design/image-3.png' | relative_url }})![alt text]({{ '/assets/images/protocol-design/image-4.png' | relative_url }})
 
 ---
 
@@ -69,7 +69,7 @@ Using the ClustalW alignment, a phylogenetic tree was constructed to visualize t
 * **Substitution Model:** Kimura 2-parameter model
 * **Bootstrap Replicates:** 1000
 
-> Screenshot 4: Final Phylogenetic Tree > ![alt text](../images/image-5.png)
+> Screenshot 4: Final Phylogenetic Tree > ![alt text]({{ '/assets/images/protocol-design/image-5.png' | relative_url }})
 
 **Interpretation of the Phylogenetic Tree:**
 * **Clustering:** The reference sequence (`NR_074314.1`) and `LC557459.1` clustered tightly together, indicating a very close evolutionary relationship. `OQ874399.1` and `MT835121.1` formed a second, closely related sister clade.
@@ -104,8 +104,9 @@ PCR primers were designed specifically for the reference sequence (`NR_074314.1`
 * **Amplicon Size:** 377 bp
 * **Specificity Verification:** Primer-BLAST specificity checking confirmed that the primer pair specifically targets the intended cyanobacterial sequence without significant off-target matches.
 
-> Screenshot 5: Primer-BLAST Results > ![alt text](../images/image-6.png)
+> Screenshot 5: Primer-BLAST Results > ![alt text]({{ '/assets/images/protocol-design/image-6.png' | relative_url }})
 
 
 ## 🔬 5. Conclusion
 This bioinformatics workflow successfully verified the taxonomic classification of *Microcystis* sp. using 16S rRNA. The sequence alignment and Neighbor-Joining phylogenetic tree confirmed expected evolutionary relationships with robust bootstrap support. Furthermore, highly specific PCR primers were successfully designed (generating a 377 bp amplicon) for future laboratory identification and environmental monitoring.
+
