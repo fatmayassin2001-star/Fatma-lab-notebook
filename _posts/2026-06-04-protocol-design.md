@@ -55,7 +55,7 @@ The FASTA sequences of the selected organisms were imported into **MEGA** softwa
 **Identification of Conserved and Variable Regions:**
 The multiple sequence alignment output highlighted highly **conserved regions** across all aligned cyanobacterial sequences (indicated by identical nucleotide columns, useful for primer anchoring). It also revealed **variable regions** (including SNPs and indels), which provide the genetic resolution needed to differentiate the species phylogenetically.
 
-> Screenshot 3: Multiple Sequence Alignment Output> ![alt text]({{ '/assets/images/protocol-design/image-3.png' | relative_url }})![alt text]({{ '/assets/images/protocol-design/image-4.png' | relative_url }})
+> Screenshot 3: Multiple Sequence Alignment Output> ![alt text]({{ '/assets/images/protocol-design/image-3.png' | relative_url }})
 
 ---
 
@@ -69,7 +69,8 @@ Using the ClustalW alignment, a phylogenetic tree was constructed to visualize t
 * **Substitution Model:** Kimura 2-parameter model
 * **Bootstrap Replicates:** 1000
 
-> Screenshot 4: Final Phylogenetic Tree > ![alt text]({{ '/assets/images/protocol-design/image-5.png' | relative_url }})
+> Screenshot 4: Final Phylogenetic Tree > ![alt text]({{ '/assets/images/protocol-design/image-4.png' | relative_url }})
+
 
 **Interpretation of the Phylogenetic Tree:**
 * **Clustering:** The reference sequence (`NR_074314.1`) and `LC557459.1` clustered tightly together, indicating a very close evolutionary relationship. `OQ874399.1` and `MT835121.1` formed a second, closely related sister clade.
@@ -104,7 +105,7 @@ PCR primers were designed specifically for the reference sequence (`NR_074314.1`
 * **Amplicon Size:** 377 bp
 * **Specificity Verification:** Primer-BLAST specificity checking confirmed that the primer pair specifically targets the intended cyanobacterial sequence without significant off-target matches.
 
-> Screenshot 5: Primer-BLAST Results > ![alt text]({{ '/assets/images/protocol-design/image-6.png' | relative_url }})
+> Screenshot 5: > ![alt text]({{ '/assets/images/protocol-design/image-5.png' | relative_url }})
 
 
 ## 🔬 5. Conclusion
